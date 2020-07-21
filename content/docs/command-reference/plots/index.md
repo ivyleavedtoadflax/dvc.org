@@ -100,10 +100,13 @@ option of `dvc plots show` and `dvc plots diff`. For templates in the
 can specify only the base name e.g. `--template scatter`.
 
 DVC has built-in following plot types:
-- `default` - linear plot 
+
+- `default` - linear plot
 - `scatter` - scatter plot
-- `smooth` - linear plot with LOESS smoothing, see [example](/doc/command-reference/plots#example-smooth-plot)
-- `confusion` - confusion matrix, see [example](/doc/command-reference/plots#example-confusion-matrix)
+- `smooth` - linear plot with LOESS smoothing, see
+  [example](/doc/command-reference/plots#example-smooth-plot)
+- `confusion` - confusion matrix, see
+  [example](/doc/command-reference/plots#example-confusion-matrix)
 
 ### Custom templates
 
